@@ -18,3 +18,4 @@ while(a != n):
         guesses += 1
        
 
+print(f"Congratulations! You've guessed the number {n} correctly in {guesses} attempts")

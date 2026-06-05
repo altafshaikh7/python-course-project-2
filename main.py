@@ -11,7 +11,8 @@ while(a != n):
     
     a = int(input("Guess the number: "))
     if (a>n):
-        print("Lower num
+        print("Lower number please")
+        guesses += 1
     elif (a<n):
         print("Higher number please")
         guesses += 1
